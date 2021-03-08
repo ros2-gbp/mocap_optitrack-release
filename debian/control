@@ -1,0 +1,13 @@
+Source: ros-noetic-mocap-optitrack
+Section: misc
+Priority: optional
+Maintainer: Tony Baltovski <tony@baltovski.ca>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-roscpp, ros-noetic-roslaunch, ros-noetic-roslint, ros-noetic-tf
+Homepage: http://ros.org/wiki/mocap_optitrack
+Standards-Version: 3.9.2
+
+Package: ros-noetic-mocap-optitrack
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-dynamic-reconfigure, ros-noetic-geometry-msgs, ros-noetic-nav-msgs, ros-noetic-roscpp, ros-noetic-tf
+Description: Streaming of OptiTrack mocap data to tf This package contains a node that translates motion capture data from an OptiTrack rig to tf transforms, poses and 2D poses.
+ The node receives packets that are streamed by a NatNet compliant source, decodes them and broadcasts the poses of configured rigid bodies as tf transforms, poses, and/or 2D poses. Currently, this node supports the NatNet streaming protocol v3.0 Copyright (c) 2013, Clearpath Robotics Copyright (c) 2010, University of Bonn, Computer Science Institute VI All rights reserved.

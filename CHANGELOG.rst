@@ -2,6 +2,16 @@
 Changelog for package mocap_optitrack
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.2 (2021-03-24)
+------------------
+* Fix/infinit fast reconnect loop (`#58 <https://github.com/ros-drivers/mocap_optitrack/issues/58>`_)
+  * fix: infinit fast loop
+  * fix: infinit-reconnect-loop
+  * fix: lint
+  * fix: styling
+  Co-authored-by: jad <jad.hajmustafa@eurogroep.com>
+* Contributors: Jad Haj Mustafa
+
 0.1.1 (2021-03-08)
 ------------------
 * Fix/coordinate system motive 2.0 (`#56 <https://github.com/ros-drivers/mocap_optitrack/issues/56>`_)

@@ -1,3 +1,26 @@
+## mocap_optitrack (noetic) - 0.1.3-1
+
+The packages in the `mocap_optitrack` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic -t noetic mocap_optitrack` on `Tue, 18 May 2021 13:21:18 -0000`
+
+The `mocap_optitrack` package was released.
+
+Version of package(s) in repository `mocap_optitrack`:
+
+- upstream repository: https://github.com/ros-drivers/mocap_optitrack.git
+- release repository: https://github.com/ros-drivers-gbp/mocap_optitrack-release.git
+- rosdistro version: `0.1.2-1`
+- old version: `0.1.2-1`
+- new version: `0.1.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.1`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## mocap_optitrack (melodic) - 0.1.3-1
 
 The packages in the `mocap_optitrack` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic mocap_optitrack` on `Tue, 18 May 2021 13:18:52 -0000`

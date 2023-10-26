@@ -1,3 +1,26 @@
+## mocap_optitrack (iron) - 1.0.0-2
+
+The packages in the `mocap_optitrack` repository were released into the `iron` distro by running `/usr/bin/bloom-release mocap_optitrack -r iron -t iron` on `Thu, 26 Oct 2023 18:31:47 -0000`
+
+The `mocap_optitrack` package was released.
+
+Version of package(s) in repository `mocap_optitrack`:
+
+- upstream repository: https://github.com/ros-drivers/mocap_optitrack.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `1.0.0-1`
+- new version: `1.0.0-2`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## mocap_optitrack (iron) - 1.0.0-1
 
 The packages in the `mocap_optitrack` repository were released into the `iron` distro by running `/usr/bin/bloom-release mocap_optitrack -r iron -t iron` on `Thu, 26 Oct 2023 18:30:04 -0000`

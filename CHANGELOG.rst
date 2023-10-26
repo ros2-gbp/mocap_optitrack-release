@@ -2,61 +2,15 @@
 Changelog for package mocap_optitrack
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.1.4 (2022-01-18)
+1.0.0 (2023-10-26)
 ------------------
-* initialize the  dynamic server in the initializer list
-* white space
-* unnecessary changes
-* fix: params namespace
-* Contributors: Jad
-
-0.1.3 (2021-05-18)
-------------------
-* Add sleep function to avoid the high load of while() function
-* Contributors: Moju Zhao
-
-0.1.2 (2021-03-24)
-------------------
-* Fix/infinit fast reconnect loop (`#58 <https://github.com/ros-drivers/mocap_optitrack/issues/58>`_)
-  * fix: infinit fast loop
-  * fix: infinit-reconnect-loop
-  * fix: lint
-  * fix: styling
-  Co-authored-by: jad <jad.hajmustafa@eurogroep.com>
-* Contributors: Jad Haj Mustafa
-
-0.1.1 (2021-03-08)
-------------------
-* Fix/coordinate system motive 2.0 (`#56 <https://github.com/ros-drivers/mocap_optitrack/issues/56>`_)
-  * fix: coordinate system for motive 2.0+
-  * typo
-  * fix: coordiante system for versions > motive 2.0
-  Co-authored-by: jad <jad.hajmustafa@eurogroep.com>
-* Feat: add enable disable tf publisher param (`#55 <https://github.com/ros-drivers/mocap_optitrack/issues/55>`_)
-  * feat: enable tf publisher param
-  * fix: default value of enable_tf_publisher
-  * feat: add-enable-disable param for tf publisher
-  * feat: add tf topic to enable/disable tf publisher
-  * remove unnecessary changes
-  * fix: lint
-  Co-authored-by: jad <jad.hajmustafa@eurogroep.com>
-* Added Noetic to CI.
-* Contributors: Tony Baltovski, jadhm
-
-0.1.0 (2021-02-24)
-------------------
-* Reset package version.
-* Bumped CMake version to avoid author warning.
-* Added nav_msgs as dep.
-* Added industrial_ci.
-* Applied roslint fixes.
-* Made roslaunch test_depend and added roslint.
-* fix: spacing
-* chore: support new motive versions for odom publisher
-* fix: coordinatesVersion as const reference
-* fix: system coordinates with new motive versions
-* feat: dynamic reconfigure server parameters and enable optitrack parameter
-* feat: add odom topic publisher
+* Feat: implement ros1 features and fixes
+* Removed wrong and undesired transformation
+* Implemented optitrack timestamp
+  The message timestamp will now be the time at which optitrack acquired the data instead of the time at which the ROS node received the data
+* Fixed deprecated parameters
+* Allowed undeclared parameters
+* Port to ROS2
 * Natnet and server version can now be set in config file
   Added a way to set both natnet and server version from yaml file, so you don't have to restart the broadcast each time you launch the mocap node. Add "version: [3,0,0,0]" in the optitrack_config-part of the config file
 * Updates all source files with BSD license blurb.
@@ -134,4 +88,4 @@ Changelog for package mocap_optitrack
 * Fixed memory allocation and parsing.
 * Don't launch the silly xterm.
 * git-svn-id: http://ais-bonn-ros-pkg.googlecode.com/svn/trunk/stacks/ais_bonn_drivers@31 ee974301-c962-0d43-73a8-0c9e5eb6d2a8
-* Contributors: Administrator, Alex Bencz, Felix Duvallet, Hyon Lim, JD Yamokoski, Mike Purvis, Ryan Gariepy, Tony Baltovski, Tønnes Nygaard, Ziyang LI, codenotes, jad, joerg.stueckler.bw@gmail.com, user
+* Contributors: 321thijs123, Administrator, Alex Bencz, Felix Duvallet, Hyon Lim, JD Yamokoski, Mike Purvis, Ryan Gariepy, Tony Baltovski, Tønnes Nygaard, Yannick de Hoop, Ziyang LI, codenotes, joerg.stueckler.bw@gmail.com, user, vinnamkim

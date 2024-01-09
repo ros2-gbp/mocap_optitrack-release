@@ -1,0 +1,13 @@
+Source: ros-humble-mocap-optitrack
+Section: misc
+Priority: optional
+Maintainer: Tony Baltovski <tony@baltovski.ca>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-rclcpp, ros-humble-tf2-ros, ros-humble-ros-workspace
+Homepage: http://ros.org/wiki/mocap_optitrack
+Standards-Version: 3.9.2
+
+Package: ros-humble-mocap-optitrack
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-tf2-ros, ros-humble-ros-workspace
+Description: Streaming of OptiTrack mocap data to tf This package contains a node that translates motion capture data from an OptiTrack rig to tf transforms, poses and 2D poses.
+ The node receives packets that are streamed by a NatNet compliant source, decodes them and broadcasts the poses of configured rigid bodies as tf transforms, poses, and/or 2D poses. Currently, this node supports the NatNet streaming protocol v3.0 Copyright (c) 2013, Clearpath Robotics Copyright (c) 2010, University of Bonn, Computer Science Institute VI All rights reserved.

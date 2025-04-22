@@ -1,3 +1,26 @@
+## mocap_optitrack (humble) - 1.0.1-1
+
+The packages in the `mocap_optitrack` repository were released into the `humble` distro by running `/usr/bin/bloom-release mocap_optitrack -r humble -t humble` on `Tue, 22 Apr 2025 04:08:48 -0000`
+
+The `mocap_optitrack` package was released.
+
+Version of package(s) in repository `mocap_optitrack`:
+
+- upstream repository: https://github.com/ros-drivers/mocap_optitrack.git
+- release repository: https://github.com/ros2-gbp/mocap_optitrack-release.git
+- rosdistro version: `1.0.0-3`
+- old version: `1.0.0-3`
+- new version: `1.0.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## mocap_optitrack (humble) - 1.0.0-3
 
 The packages in the `mocap_optitrack` repository were released into the `humble` distro by running `/usr/bin/bloom-release mocap_optitrack -t humble -r humble --edit-track` on `Tue, 09 Jan 2024 21:20:37 -0000`

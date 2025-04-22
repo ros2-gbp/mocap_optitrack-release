@@ -2,6 +2,12 @@
 Changelog for package mocap_optitrack
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.1 (2025-04-22)
+------------------
+* Added CI and fixed linting.
+* Fixed package.xml.
+* Contributors: Tony Baltovski
+
 1.0.0 (2023-10-26)
 ------------------
 * Feat: implement ros1 features and fixes
